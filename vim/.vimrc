@@ -4,7 +4,6 @@ set number
 set autoindent
 set smartindent
 
-" Editor settings
 set shiftwidth=2
 set tabstop=2
 set expandtab
@@ -19,14 +18,7 @@ set nocompatible
 set mouse+=a
 
 set splitright
-
-" Theme set up
-call plug#begin('~/.vim/plugged')
-Plug 'morhetz/gruvbox'
-call plug#end()
-
 set background=dark
-colorscheme gruvbox
 
 let g:airline_theme='one'
 let g:rainbow_active = 1
